@@ -1,27 +1,32 @@
 {
-  "name": "sass.js-playground",
-  "version": "0.1.13",
-  "description": "Interactive playground featuring the Sass.js API",
+  "name": "fork-sass.js-playground",
+  "version": "0.1.15",
+  "description": "Interactive chrome extensions playground featuring the Sass.js API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/medialize/sass.js-playground.git"
+    "url": "git://github.com/alegorico/sass.js-playground.git"
   },
-  "author": "Adonis K. <aklp08@gmail.com> (http://adonisk.com/)",
+  "author": "Alejandro G. <mierdeneitor@gmail.com>",
   "contributors": [
+	{
+	  "name": "Adonis K.", 
+	  "url": "http://adonisk.com/"	
+	},
     {
+	
       "name": "Rodney Rehm",
       "url": "http://rodneyrehm.de/"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/medialize/playground.sass.js/issues"
+    "url": "https://github.com/alegorico/playground.sass.js/issues"
   },
-  "homepage": "https://github.com/medialize/playground.sass.js",
+  "homepage": "https://chrome.google.com/webstore/detail/sassjs/ijhmcokhpfieofcjiklembneicdpcold?utm_source=chrome-ntp-icon",
   "devDependencies": {
     "ace-builds": "git://github.com/ajaxorg/ace-builds.git#v1.2.2",
     "autoprefixer": "^6.2.1",
