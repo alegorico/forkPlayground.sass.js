@@ -17,10 +17,10 @@ module.exports = {
     src: '**',
     dest: 'dist/js/ace'
   },
-  cname: {
-    expand: true,
-    cwd: 'source/',
-    src: 'CNAME',
-    dest: 'dist/'
+  varios: {
+	  expand: true,
+	  src: '**',
+	  dest: 'dist',
+	  cwd: 'varios'
   }
 };
