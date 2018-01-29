@@ -8,16 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alegorico/sass.js-playground.git"
+    "url": "git://github.com/alegorico/forkPlayground.sass.js.git"
   },
   "author": "Alejandro G. <mierdeneitor@gmail.com>",
   "contributors": [
-	{
-	  "name": "Adonis K.", 
-	  "url": "http://adonisk.com/"	
-	},
     {
-	
+      "name": "Adonis K.",
+      "url": "http://adonisk.com/"
+    },
+    {
       "name": "Rodney Rehm",
       "url": "http://rodneyrehm.de/"
     }

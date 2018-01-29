@@ -17,10 +17,10 @@ module.exports = {
     src: '**',
     dest: 'dist/js/ace'
   },
-  varios: {
+  assets: {
 	  expand: true,
 	  src: '**',
 	  dest: 'dist',
-	  cwd: 'varios'
+	  cwd: 'assets'
   }
 };
