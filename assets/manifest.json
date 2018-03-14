@@ -6,17 +6,20 @@
 	"description": "Offline Playground for Sass",
 	"permissions": ["activeTab"],
 	"browser_action": {
-		"default_title": "Start Sass.js Edit"
+		"default_title": "Start Sass.js Edit",
+		"default_icon": {
+			"48": "sass-48.png",
+			"128": "sass-128.png"
+		}
 	},
 		"background": {
-		"scripts": ["main.js"],
-		"persistent": false
+		"scripts": ["main.js"]
 	},
 		"icons": {
 			"16": "sass-16.png",
 			"48": "sass-48.png",
 			"128": "sass-128.png"
 	}
-	
+
 
 }
