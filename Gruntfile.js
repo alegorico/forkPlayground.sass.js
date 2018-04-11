@@ -12,9 +12,12 @@ module.exports = function (grunt) {
   grunt.registerTask('html', ['replace', 'htmlmin']);
   grunt.registerTask('css', ['sass', 'postcss']);
   grunt.registerTask('js', ['webpack', 'copy']);
+  grunt.registerTask('clear', ['clean']);
 
-  grunt.registerTask('build', ['html', 'css', 'js']);
+  grunt.registerTask('build', ['clear', 'html', 'css', 'js']);
   grunt.registerTask('deploy', ['build', 'gh-pages']);
 
-  grunt.registerTask('default', ['build']);
+  grunt.registerTask('default', ['clear', 'build']);
+  
+  
 }
