@@ -1,6 +1,6 @@
 {
   "name": "fork-sass.js-playground",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Interactive chrome extensions playground featuring the Sass.js API",
   "main": "index.js",
   "scripts": {
