@@ -4,7 +4,7 @@ module.exports = {
   },
   dist: {
     files: {
-      'dist/css/style.css': 'source/scss/style.scss'
+      'dist/source/css/style.css': 'source/scss/style.scss'
     }
   }
 };

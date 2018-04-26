@@ -1,7 +1,7 @@
 module.exports = {
   dist: {
     files: {
-      'dist/index.html': 'dist/index.html'
+      'dist/source/index.html': 'dist/source/index.html'
     }
   }
 };

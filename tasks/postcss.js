@@ -5,7 +5,7 @@ module.exports = {
     ]
   },
   dist: {
-    src: 'dist/css/style.css',
-    dest: 'dist/css/style.css'
+    src: 'dist/source/css/style.css',
+    dest: 'dist/source/css/style.css'
   }
 };

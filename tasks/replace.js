@@ -9,7 +9,7 @@ module.exports = {
     },
     files: [{
       src: ['source/index.html'],
-      dest: 'dist/',
+      dest: 'dist/source',
       expand: true,
       flatten: true
     }]
