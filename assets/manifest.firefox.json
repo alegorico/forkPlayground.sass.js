@@ -1,7 +1,7 @@
 {
 	"name": "Live Sass.js Editor",
 	"short_name" : "Sass.js",
-	"version": "0.1.15",
+	"version": "0.1.17",
 	"manifest_version": 2,
 	"description": "Offline Playground for Sass",
 	"permissions": ["activeTab"],
