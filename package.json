@@ -1,11 +1,12 @@
 {
   "name": "fork-sass.js-playground",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Interactive chrome extensions playground featuring the Sass.js API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "webpack-dev-server --inline --content-base dist/"
+    "generate": "sh ./tasks/create.sh",
+    "server": "node_modules/.bin/webpack-dev-server --inline --content-base dist/source"
   },
   "repository": {
     "type": "git",

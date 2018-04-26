@@ -15,9 +15,9 @@ module.exports = function (grunt) {
   grunt.registerTask('clear', ['clean']);
 
   grunt.registerTask('build', ['clear', 'html', 'css', 'js']);
-  grunt.registerTask('deploy', ['build', 'gh-pages']);
+  grunt.registerTask('deploy', ['clear', 'build', 'gh-pages']);
 
-  grunt.registerTask('default', ['clear', 'build']);
+  grunt.registerTask('default', ['build']);
   
   
 }
