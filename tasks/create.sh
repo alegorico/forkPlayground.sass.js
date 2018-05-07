@@ -1,8 +1,5 @@
 #!/bin/sh
 
-
-
-
 work() {
     cp -R dist/source dist/$dir/
 
